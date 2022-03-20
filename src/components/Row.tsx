@@ -6,7 +6,7 @@ type RowProps = {
   active: boolean;
 };
 
-export const Row: FC<RowProps> = (props) => {
+export const Row: FC<RowProps> = ({ rowId, active }) => {
   const [activeSquareKey, setActiveSquareKey] = useState(0);
 
   const selectSquareHandler = (squareKey: number) => {
@@ -16,36 +16,36 @@ export const Row: FC<RowProps> = (props) => {
 
   return (
     <div
-      id={props.rowId.toString()}
+      id={rowId.toString()}
       className="flex flex-row gap-1 justify-center align-center"
     >
       <Square
         squareId={0}
-        inActiveRow={props.active}
+        inActiveRow={active}
         activeSquare={activeSquareKey}
         focusSquare={selectSquareHandler}
       />
       <Square
         squareId={1}
-        inActiveRow={props.active}
+        inActiveRow={active}
         activeSquare={activeSquareKey}
         focusSquare={selectSquareHandler}
       />
       <Square
         squareId={2}
-        inActiveRow={props.active}
+        inActiveRow={active}
         activeSquare={activeSquareKey}
         focusSquare={selectSquareHandler}
       />
       <Square
         squareId={3}
-        inActiveRow={props.active}
+        inActiveRow={active}
         activeSquare={activeSquareKey}
         focusSquare={selectSquareHandler}
       />
       <Square
         squareId={4}
-        inActiveRow={props.active}
+        inActiveRow={active}
         activeSquare={activeSquareKey}
         focusSquare={selectSquareHandler}
       />
