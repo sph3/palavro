@@ -30,7 +30,8 @@
 
 <p>
 ⚛ React <br>
-⚡ Vite 
+⚡ Vite <br>
+💨 TailwindCSS
 </p>
 
 ## Quem fez 👤
