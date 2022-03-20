@@ -5,31 +5,35 @@
 
 > Um wordle-like em português
 
-## Notas
+## Notas 📝
 
 ```sh
  Este projeto está em fase inicial de desenvolvimento. Ou seja, ainda não é um jogo funcional.
 ```
 
-## Como testar
-• Clone esse repositório <br>
+## Como testar 🚀
+
+• Clone esse repositório ou baixe como .zip <br>
 • Execute os seguintes comandos dentro da pasta clonada
+
 ```sh
  yarn
 ```
+
 ```sh
  yarn dev
 ```
-• Abra `localhost:3000` em seu navegador
 
-## Feito utilizando:
+• Abra `localhost:3000` em seu navegador e divirta-se 😊
+
+## Feito utilizando 💻
 
 <p>
-• React ⚛ <br>
-• Vite ⚡
+⚛ React <br>
+⚡ Vite 
 </p>
 
-## Quem fez
+## Quem fez 👤
 
 👤 **sph3**
 
