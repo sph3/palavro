@@ -11,6 +11,17 @@
  Este projeto está em fase inicial de desenvolvimento. Ou seja, ainda não é um jogo funcional.
 ```
 
+## Como testar
+• Clone esse repositório <br>
+• Execute os seguintes comandos dentro da pasta clonada
+```sh
+ yarn
+```
+```sh
+ yarn dev
+```
+• Abra `localhost:3000` em seu navegador
+
 ## Feito utilizando:
 
 <p>
