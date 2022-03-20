@@ -6,7 +6,7 @@ export const App = () => {
     <section id="root" className="dark">
       <main
         id="background"
-        className="h-screen p-3 justify-center text-center dark:bg-black2 bg-gray1"
+        className="h-screen p-2 justify-center text-center dark:bg-black1 bg-gray1"
       >
         <Header />
         <Game />

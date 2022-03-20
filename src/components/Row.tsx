@@ -1,13 +1,22 @@
+import { FC, useState } from 'react';
 import { Square } from './Square';
 
-export const Row = () => {
+type RowProps = {
+  rowIndex: number;
+};
+
+export const Row = (props: RowProps) => {
+  const [activeRow, setActiveRow] = useState('0');
   return (
-    <div id="row-1" className="flex flex-row justify-evenly align-center">
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
+    <div
+      key={props.rowIndex}
+      className="flex flex-row gap-1 justify-center align-center"
+    >
+      <Square squareIndex={0} />
+      <Square squareIndex={1} />
+      <Square squareIndex={2} />
+      <Square squareIndex={3} />
+      <Square squareIndex={4} />
     </div>
   );
 };
