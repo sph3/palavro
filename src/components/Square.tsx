@@ -2,6 +2,8 @@ type SquareProps = {
   squareIndex: number;
 };
 
+const activeClasses = ""
+
 export const Square = (props: SquareProps) => {
   return (
     <div

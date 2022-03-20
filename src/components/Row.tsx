@@ -6,7 +6,7 @@ type RowProps = {
 };
 
 export const Row = (props: RowProps) => {
-  const [activeRow, setActiveRow] = useState('0');
+  const [activeSquare, setActiveSquare] = useState(0);
   return (
     <div
       key={props.rowIndex}

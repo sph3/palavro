@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import { Row } from './Row';
 
 export const Board = () => {
+  const [activeRow, setActiveRow] = useState('0');
   return (
     <section id="board" className="flex px-7 flex-col gap-1 mt-16">
       <Row rowIndex={0} />
