@@ -30,7 +30,10 @@ export const Square: FC<SquareProps> = ({
       id={squareId.toString()}
       onClick={handleClick}
       className={
-        'h-14 w-14 border-4 rounded-md ' + rowClasses + ' ' + squareClasses
+        'transition-all duration-75 h-14 w-14 border-4 rounded-md ' +
+        rowClasses +
+        ' ' +
+        squareClasses
       }
     ></div>
   );
