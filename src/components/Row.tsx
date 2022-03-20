@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import { Square } from './Square';
 
 type RowProps = {
@@ -7,7 +7,6 @@ type RowProps = {
 };
 
 export const Row: FC<RowProps> = (props) => {
-  const [activeSquare, setActiveSquare] = useState(0);
   return (
     <div
       key={props.key}
