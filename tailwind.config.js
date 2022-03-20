@@ -1,5 +1,5 @@
 module.exports = {
-  content: [],
+  content: ['./src/**/*.{tsx,html,jsx,js,ts}'],
   theme: {
     colors: {
       flamingo: '#F2CDCD',
