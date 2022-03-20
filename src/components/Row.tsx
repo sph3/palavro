@@ -3,6 +3,7 @@ import { Square } from './Square';
 
 type RowProps = {
   rowIndex: number;
+  active?: boolean;
 };
 
 export const Row = (props: RowProps) => {
