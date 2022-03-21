@@ -1,5 +1,7 @@
 export const Keyboard = () => {
   return (
-    <div>Keyboard</div>
-  )
-}
+    <section id="keyboard-root" className="flex flex-col justify-between">
+      <Key letter="q" />
+    </section>
+  );
+};
