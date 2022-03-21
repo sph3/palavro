@@ -17,7 +17,7 @@ export const Row: FC<RowProps> = ({ rowId, active }) => {
   return (
     <div
       id={rowId.toString()}
-      className="flex flex-row gap-1 justify-center align-center"
+      className='flex flex-row gap-1 justify-center align-center'
     >
       <Square
         squareId={0}
