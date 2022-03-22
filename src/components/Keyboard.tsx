@@ -4,7 +4,7 @@ export const Keyboard = () => {
   return (
     <section
       id="keyboard-root"
-      className="flex flex-col m-auto top-1/2 gap-3 items-start px-2"
+      className="flex flex-col m-auto mt-20 gap-3 items-start px-2"
     >
       <div id="row-1" className="flex flex-row justify-center gap-1">
         <Key dataKey="q" />
