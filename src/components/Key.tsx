@@ -5,7 +5,7 @@ type KeyProps = React.ComponentProps<'button'> & {
 export const Key = (props: KeyProps) => {
   if (props.children) {
     return (
-      <button className=" h-14 w-9 justify-center bg-red border-0 rounded-md">
+      <button className="ml-5 h-14 w-9 justify-center bg-red border-0 rounded-md">
         {props.children}
       </button>
     );
@@ -13,7 +13,7 @@ export const Key = (props: KeyProps) => {
   return (
     <>
       {props.dataKey === 'ENTER' ? (
-        <button className="ml-1 h-14 w-20 min-w-20 text-center bg-sky text-black1 font-medium border-0 rounded-md">
+        <button className="ml-8 h-14 w-20 min-w-20 text-center bg-sky text-black1 font-medium border-0 rounded-md">
           {props.dataKey.toUpperCase()}
         </button>
       ) : (
