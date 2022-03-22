@@ -2,7 +2,7 @@ import { Key } from './Key';
 
 export const Keyboard = () => {
   return (
-    <section id="keyboard-root" className="flex flex-col mt-10 gap-3">
+    <section id="keyboard-root" className="flex flex-col mt-20 gap-3">
       <div id="row-1" className="flex flex-row justify-center gap-1">
         <Key dataKey="q" />
         <Key dataKey="w" />
@@ -15,7 +15,7 @@ export const Keyboard = () => {
         <Key dataKey="o" />
         <Key dataKey="p" />
       </div>
-      <div id="row-2" className="flex flex-row justify-center gap-1">
+      <div id="row-2" className="flex flex-row justify-center gap-1 ml-10">
         <Key dataKey="a" />
         <Key dataKey="s" />
         <Key dataKey="d" />
@@ -38,7 +38,7 @@ export const Keyboard = () => {
           </svg>
         </Key>
       </div>
-      <div id="row-3" className="flex flex-row justify-center gap-1">
+      <div id="row-3" className="ml-16 flex flex-row justify-center gap-1">
         <Key dataKey="z" />
         <Key dataKey="x" />
         <Key dataKey="c" />
