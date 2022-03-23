@@ -13,7 +13,7 @@ export const App = () => {
   const [notify, setNotify] = useState({} as NotificationType);
 
   useEffect(() => {
-    setNotify({ color: 'red', message: 'Mensagem inútil!' });
+    setNotify({ color: 'sky', message: 'Mensagem inútil!' });
   }, []);
 
   return (
