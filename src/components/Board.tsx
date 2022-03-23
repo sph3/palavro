@@ -5,7 +5,7 @@ export const Board: FC<any> = () => {
   const [activeRow, setActiveRow] = useState(0);
 
   return (
-    <section id="board" className="flex flex-col gap-1 mt-16">
+    <section id="board" className="flex flex-col gap-1 mt-8">
       <Row rowId={0} active={true} />
       <Row rowId={1} active={false} />
       <Row rowId={2} active={false} />

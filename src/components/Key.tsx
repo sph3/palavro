@@ -5,7 +5,7 @@ type KeyProps = React.ComponentProps<'button'> & {
 export const Key = (props: KeyProps) => {
   if (props.children) {
     return (
-      <button className="ml-5 h-14 w-9 justify-center bg-red border-0 rounded-md">
+      <button className="ml-5 h-14 w-9 justify-center items-center bg-red border-0 rounded-md">
         {props.children}
       </button>
     );

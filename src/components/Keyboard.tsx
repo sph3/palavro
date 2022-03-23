@@ -6,7 +6,10 @@ export const Keyboard = () => {
       id="keyboard-root"
       className="flex flex-col m-auto mt-20 gap-3 items-start px-2"
     >
-      <div id="row-1" className="flex flex-row justify-center gap-1">
+      <div
+        id="row-1"
+        className="flex flex-row flex-shrink-0 justify-center gap-1"
+      >
         <Key dataKey="q" />
         <Key dataKey="w" />
         <Key dataKey="e" />
@@ -18,7 +21,10 @@ export const Keyboard = () => {
         <Key dataKey="o" />
         <Key dataKey="p" />
       </div>
-      <div id="row-2" className="ml-4 flex flex-row justify-center gap-1">
+      <div
+        id="row-2"
+        className="ml-4 flex flex-row flex-shrink-0 justify-center gap-1"
+      >
         <Key dataKey="a" />
         <Key dataKey="s" />
         <Key dataKey="d" />
@@ -41,7 +47,10 @@ export const Keyboard = () => {
           </svg>
         </Key>
       </div>
-      <div id="row-3" className="ml-8 flex flex-row justify-center gap-1">
+      <div
+        id="row-3"
+        className="ml-8 flex flex-row flex-shrink-0 justify-center gap-1"
+      >
         <Key dataKey="z" />
         <Key dataKey="x" />
         <Key dataKey="c" />
