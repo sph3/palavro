@@ -26,7 +26,7 @@ export const Square: FC<SquareProps> = ({
     focusSquare(squareId);
   };
   return (
-    <div
+    <button
       id={squareId.toString()}
       onClick={handleClick}
       className={
@@ -35,6 +35,6 @@ export const Square: FC<SquareProps> = ({
         ' ' +
         squareClasses
       }
-    ></div>
+    ></button>
   );
 };
