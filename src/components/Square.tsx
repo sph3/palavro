@@ -17,8 +17,8 @@ export const Square: FC<SquareProps> = ({
   focusSquare,
 }) => {
   rowClasses = inActiveRow
-    ? 'dark:bg-transparent dark:border-black4'
-    : 'dark:border-black3 dark:bg-black3';
+    ? 'bg-transparent border-black4'
+    : 'border-black3 bg-black3';
 
   squareClasses = activeSquare === squareId ? 'border-b-8' : '';
 

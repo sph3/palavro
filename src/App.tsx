@@ -13,7 +13,6 @@ export const App = () => {
   const [notify, setNotify] = useState({} as NotificationType);
 
   useEffect(() => {
-    setNotify({ color: 'sky', message: 'Mensagem inútil!' });
     window.addEventListener('resize', () => {
       let vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -21,11 +20,8 @@ export const App = () => {
   }, []);
 
   return (
-    <section id="root" className="dark">
-      <main
-        id="background"
-        className="py-2 justify-center text-center dark:bg-black1 bg-gray1"
-      >
+    <section id="root">
+      <main id="background" className="justify-center text-center bg-black2">
         <Header />
         <Notification color={notify.color} message={notify.message} />
         <Game />
